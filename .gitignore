@@ -45,3 +45,5 @@ dev.log
 
 # Sub-projects (separate repos)
 /projets/
+
+.vercel

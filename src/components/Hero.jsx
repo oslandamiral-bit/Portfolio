@@ -9,15 +9,15 @@ export default function Hero() {
     >
       <div className="grid md:grid-cols-2 gap-12 items-center w-full">
         <div>
-          <div className="md:hidden flex justify-center mb-8">
-            <div className="relative w-40 h-40 rounded-full bg-gradient-to-br from-primary to-accent p-1">
-              <img
-                src={photo}
-                alt={`Photo de ${profile.name}`}
-                className="w-full h-full rounded-full object-cover"
-              />
+<div className="md:hidden flex justify-center mb-6">
+              <div className="relative w-32 h-32 rounded-full bg-gradient-to-br from-primary to-accent p-1">
+                <img
+                  src={photo}
+                  alt={`Photo de ${profile.name}`}
+                  className="w-full h-full rounded-full object-cover"
+                />
+              </div>
             </div>
-          </div>
           <p className="text-primary font-medium mb-4">Bonjour, je m'appelle</p>
           <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
             {profile.name}

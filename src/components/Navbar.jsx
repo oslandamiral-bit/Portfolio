@@ -67,7 +67,10 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <ul className="md:hidden bg-darker/95 backdrop-blur-md border-t border-white/10 px-6 pb-6 pt-4 space-y-1">
+        <ul
+          className="md:hidden bg-darker/95 backdrop-blur-md border-t border-white/10 px-6 pb-6 pt-4 space-y-1"
+          style={{ maxHeight: open ? '200px' : '0', overflow: 'hidden', transition: 'height 0.3s ease' }}
+        >
           {links.map((link) => (
             <li key={link.href}>
               <a

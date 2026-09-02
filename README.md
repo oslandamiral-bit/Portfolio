@@ -1,7 +1,7 @@
 # Portfolio — Osland HOUNGBEME
 
 <p align="center">
-  <img src="public/portfolio-preview.png" alt="Aperçu du portfolio Osland HOUNGBEME" width="100%" />
+  <img src="OXI.png" alt="Aperçu du portfolio Osland HOUNGBEME" width="100%" />
 </p>
 
 Bienvenue sur le dépôt de mon portfolio personnel. Il s'agit d'une application web moderne, rapide et entièrement responsive, conçue pour présenter mon profil, mes compétences et mes projets sur tout type d'écran (Android, iPhone, tablette, ordinateur).

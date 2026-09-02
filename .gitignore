@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local / dev files
+dev.err
+dev.log
+*.db
+*.zip
+
+# CV duplicates at project root
+/cv_osland_v3.pdf
+/cv_osland_v3.docx
+/0
+
+# CV backups
+/public/cv/cv_osland_v3_backup.pdf
+/public/cv/cv_osland_v3_backup.docx
+/public/cv/cv_osland_v3_before_fix.pdf
+/public/cv/cv_osland_v3.docx
+
+# Preview screenshots (unused in the app)
+/public/gestion-notes-preview/
+
+# Sub-projects (separate repos)
+/projets/

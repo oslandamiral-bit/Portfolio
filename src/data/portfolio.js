@@ -14,7 +14,7 @@ export const profile = {
   email: "oslandamiral@gmail.com",
   phone: "0199075912",
   location: "Cotonou, Bénin",
-  github: "https://github.com/oslandamiral-bit",
+  github: "https://github.com/oslandamiral-bit/Portfolio",
   whatsapp: "https://wa.me/22999075912",
   resumeUrl: "#contact",
   cvUrl: "/cv/cv_osland_v3.pdf",

@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="w-16 h-1 bg-gradient-to-r from-primary to-accent mb-10 rounded" />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
         {projects.map((project) => (
           <article
             key={project.title}
@@ -61,25 +61,33 @@ export default function Projects() {
               </div>
 
               <div className="flex gap-4">
-                {project.liveUrl && project.liveUrl !== "#" && (
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-sm text-primary hover:text-accent transition-colors font-medium"
-                  >
-                    Démo →
-                  </a>
-                )}
-                {project.previewUrl && (
-                  <a
-                    href={project.previewUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-sm text-primary hover:text-accent transition-colors font-medium"
-                  >
-                    Voir l'aperçu →
-                  </a>
+                {project.appOnly ? (
+                  <span className="text-sm text-slate-500 font-medium">
+                    Application de bureau
+                  </span>
+                ) : (
+                  <>
+                    {project.liveUrl && project.liveUrl !== "#" && (
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-sm text-primary hover:text-accent transition-colors font-medium"
+                      >
+                        Démo →
+                      </a>
+                    )}
+                    {project.previewUrl && (
+                      <a
+                        href={project.previewUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-sm text-primary hover:text-accent transition-colors font-medium"
+                      >
+                        Voir l'aperçu →
+                      </a>
+                    )}
+                  </>
                 )}
                 <a
                   href={project.repoUrl}

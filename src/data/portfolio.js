@@ -48,7 +48,7 @@ export const projects = [
     image: gestionNotesPreview,
     tech: ["Python", "CustomTkinter", "SQLite/MySQL"],
     repoUrl: "https://github.com/oslandamiral-bit/Gestion_notes",
-    previewUrl: "http://localhost:8310",
+    appOnly: true,
   },
   {
     title: "institutUATM",
@@ -57,7 +57,8 @@ export const projects = [
     image: institutUATMPreview,
     tech: ["HTML", "CSS", "JavaScript", "PHP"],
     repoUrl: "https://github.com/oslandamiral-bit/institutUATM",
-    previewUrl: "http://localhost:8025",
+    liveUrl: "https://institut-uatm.vercel.app",
+    previewUrl: "https://institut-uatm.vercel.app",
   },
   {
     title: "student229",
@@ -66,6 +67,7 @@ export const projects = [
     image: student229Preview,
     tech: ["Flutter", "Dart", "SQLite"],
     repoUrl: "https://github.com/oslandamiral-bit/student229",
-    previewUrl: "http://localhost:8311",
+    liveUrl: "https://student-229.vercel.app",
+    previewUrl: "https://student-229.vercel.app",
   },
 ]
